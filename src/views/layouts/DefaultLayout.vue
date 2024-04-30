@@ -6,7 +6,7 @@ import FooterView from '@/components/FooterView.vue'
 
 <template>
   <header-view />
-  <main>
+  <main class="flex flex-col flex-grow">
     <router-view />
   </main>
   <footer-view />

@@ -6,10 +6,20 @@
   --lol_black-: rgba(17, 17, 17, 1);
   --lol_or-: rgba(194, 143, 43, 1);
 }
+
 .lol_black {
+  color: var(--lol_black-);
+}
+.bg_lol_black {
   background-color: var(--lol_black-);
 }
 
 .lol_or {
   color: var(--lol_or-);
+}
+.bg_lol_or {
+  background-color: var(--lol_or-);
+}
+.border_or {
+  border-color: var(--lol_or-);
 }

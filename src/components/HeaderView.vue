@@ -1,8 +1,8 @@
 <template>
-  <header>
-    <nav class="lg:px-16 px-6 shadow-md flex flex-wrap items-center lg:py-3 py-2 lol_black">
+  <header class="mb-12">
+    <nav class="lg:px-16 px-6 shadow-md flex flex-wrap items-center lg:py-3 py-2 bg_lol_black">
       <div class="flex-1 flex justify-between items-center">
-        <router-link :to="{ name: 'home' }" class="text-3xl flex gap-2 lol_or">
+        <router-link :to="{ name: 'home' }" class="text-3xl font-extrabold flex gap-2 lol_or">
           LoLInfos
         </router-link>
       </div>
@@ -24,7 +24,7 @@
           class="text-xl text-center items-center gap-x-5 pt-4 md:gap-x-4 lg:text-lg lg:flex lg:pt-0"
         >
           <li class="py-2 lg:py-0">
-            <router-link :to="{ name: 'home' }" class="lol_or"> Home </router-link>
+            <router-link :to="{ name: 'home' }" class="lol_or"> Accueil </router-link>
           </li>
         </ul>
       </div>
