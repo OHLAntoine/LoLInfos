@@ -22,7 +22,7 @@ const router = createRouter({
           component: TeamView
         },
         {
-          path: '/champion',
+          path: '/champion/:name?',
           name: 'champion',
           component: ChampionView
         }

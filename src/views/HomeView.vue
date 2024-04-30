@@ -4,8 +4,8 @@
       Bienvenue dans ce site d'information sur les champions adverses !
     </h1>
     <p class="mt-6 text-lg">
-      Ce site a pour but de vous aider à connaitre un peu plus les champions de l'équipe adverse
-      afin de pouvoir réagir au mieux durant votre partie et obtenir la victoire !!
+      Ce site a pour but de vous aider à connaitre davantage les champions de l'équipe adverse afin
+      de pouvoir réagir au mieux durant votre partie et obtenir la victoire !!
     </p>
   </section>
 
@@ -21,8 +21,8 @@
       >
         <div class="p-1 bg_lol_or"></div>
         <div class="p-8">
-          <h2 class="text-3xl font-bold mb-4">Composition totale</h2>
-          <p class="mb-6">Obtenez des informations sur tous les champions de la team adverse</p>
+          <h2 class="text-3xl font-bold mb-4">Composition d'équipe</h2>
+          <p class="mb-6">Obtenez des informations sur tous les champions de la team adverse.</p>
           <ul class="text-sm mb-6">
             <li class="mb-2 flex items-center">
               <svg
@@ -51,7 +51,7 @@
         <div class="p-1 bg_lol_or"></div>
         <div class="p-8">
           <h2 class="text-3xl font-bold mb-4">Champion unique</h2>
-          <p class="mb-6">Obtenez des informations sur un champion de la team adverse</p>
+          <p class="mb-6">Obtenez des informations sur un champion de la team adverse.</p>
           <ul class="text-sm mb-6">
             <li class="mb-2 flex items-center">
               <svg
