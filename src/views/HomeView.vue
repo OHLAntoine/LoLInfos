@@ -16,7 +16,7 @@
       class="flex items-center justify-around content-center flex-col gap-8 md:flex-row md:gap-4"
     >
       <router-link
-        :to="{ name: 'home' }"
+        :to="{ name: 'team' }"
         class="bg-gray-200 rounded-lg overflow-hidden shadow-lg shadow-black transition-transform transform hover:scale-105 max-w-96"
       >
         <div class="p-1 bg_lol_or"></div>
@@ -45,7 +45,7 @@
         </div>
       </router-link>
       <router-link
-        :to="{ name: 'home' }"
+        :to="{ name: 'champion' }"
         class="bg-gray-200 rounded-lg overflow-hidden shadow-lg shadow-black transition-transform transform hover:scale-105 max-w-96"
       >
         <div class="p-1 bg_lol_or"></div>

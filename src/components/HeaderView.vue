@@ -26,6 +26,12 @@
           <li class="py-2 lg:py-0">
             <router-link :to="{ name: 'home' }" class="lol_or"> Accueil </router-link>
           </li>
+          <li class="py-2 lg:py-0">
+            <router-link :to="{ name: 'team' }" class="lol_or"> Equipe </router-link>
+          </li>
+          <li class="py-2 lg:py-0">
+            <router-link :to="{ name: 'champion' }" class="lol_or"> Champion </router-link>
+          </li>
         </ul>
       </div>
     </nav>
