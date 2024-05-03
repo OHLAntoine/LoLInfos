@@ -7,7 +7,9 @@ export const useChampionStore = defineStore('champions', {
     team: [],
     champion: []
   }),
-  getters: '',
+  getters: {
+    passiveDescription: (state) => state.champion.passive.description.replace(/<.+?>/g, '')
+  },
   actions: {
     getAllChampions() {
       axiosClient.get('champion.json').then(({ data }) => {
@@ -19,8 +21,8 @@ export const useChampionStore = defineStore('champions', {
         this.champion = data.data[name]
       })
     },
-    getChampionImage(name) {
-      return `https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${name}_0.jpg`
+    getChampionImage(id) {
+      return `https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${id}_0.jpg`
     },
     getSpellImage(id) {
       return `https://ddragon.leagueoflegends.com/cdn/14.9.1/img/spell/${id}.png`

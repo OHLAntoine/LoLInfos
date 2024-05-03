@@ -1,5 +1,5 @@
 <template>
-  <footer class="mt-12 bg_lol_black">
+  <footer class="mt-8 bg_lol_black">
     <div class="container px-6 py-4 mx-auto">
       <hr class="mb-3 border_or" />
       <div class="flex flex-col items-center justify-between sm:flex-row">
