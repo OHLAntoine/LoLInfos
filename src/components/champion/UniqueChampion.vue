@@ -1,5 +1,5 @@
 <template>
-  <section class="h-full lg:px-24 px-6 flex flex-col items-center lg:flex-row lg:items-start gap-8">
+  <section class="h-full lg:px-24 px-6 flex flex-col items-center xl:flex-row xl:items-start gap-8">
     <img :src="store.getChampionImage(champion.id)" alt="image" class="h-full lg:w-auto w-1/2" />
     <div class="flex flex-col gap-2 h-full">
       <div class="flex items-center gap-2 justify-center md:justify-start">
@@ -26,7 +26,7 @@
             </li>
             <li class="flex flex-col gap-2">
               <h4 class="font-semibold text-xl">
-                {{ passiveName }} <span class="font-normal">(passif)</span>
+                {{ passiveName }} <span class="font-normal italic">(passif)</span>
               </h4>
               <div class="flex items-center gap-4">
                 <img
@@ -34,7 +34,7 @@
                   alt="Passive image"
                   style="height: 64px; width: 64px"
                 />
-                <p>{{ passiveDescription }}</p>
+                <p class="text-sm">{{ passiveDescription }}</p>
               </div>
             </li>
           </ul>
