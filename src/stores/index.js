@@ -4,8 +4,12 @@ import axiosClient from '@/axiosClient'
 export const useChampionStore = defineStore('champions', {
   state: () => ({
     champions: [],
-    team: [],
-    champion: []
+    champion: [],
+    topChampion: [],
+    jungleChampion: [],
+    midChampion: [],
+    botChampion: [],
+    supportChampion: []
   }),
   getters: {
     passiveDescription: (state) => state.champion.passive.description.replace(/<.+?>/g, '')
@@ -19,6 +23,31 @@ export const useChampionStore = defineStore('champions', {
     getChampion(name) {
       axiosClient.get(`champion/${name}.json`).then(({ data }) => {
         this.champion = data.data[name]
+      })
+    },
+    getTopChampion(name) {
+      axiosClient.get(`champion/${name}.json`).then(({ data }) => {
+        this.topChampion = data.data[name]
+      })
+    },
+    getJungleChampion(name) {
+      axiosClient.get(`champion/${name}.json`).then(({ data }) => {
+        this.jungleChampion = data.data[name]
+      })
+    },
+    getMidChampion(name) {
+      axiosClient.get(`champion/${name}.json`).then(({ data }) => {
+        this.midChampion = data.data[name]
+      })
+    },
+    getBotChampion(name) {
+      axiosClient.get(`champion/${name}.json`).then(({ data }) => {
+        this.botChampion = data.data[name]
+      })
+    },
+    getSupportChampion(name) {
+      axiosClient.get(`champion/${name}.json`).then(({ data }) => {
+        this.supportChampion = data.data[name]
       })
     },
     getChampionImage(id) {
