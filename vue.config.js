@@ -1,1 +1,6 @@
-export const publicPath = process.env.NODE_ENV === 'production' ? '/LoLInfos/' : '/'
+import { env } from 'node:process'
+import { module } from 'node:module'
+
+module.exports = {
+  publicPath: env.NODE_ENV === 'production' ? '/LoLInfos/' : '/'
+}
