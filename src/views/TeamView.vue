@@ -3,7 +3,7 @@
     <h1 class="font-bold text-2xl">Bienvenue sur la page de visualisation d'équipe</h1>
   </div>
 
-  <div class="px-6 grid grid-rows-1 grid-cols-5">
+  <div class="px-6 xl:grid xl:grid-rows-1 xl:grid-cols-5">
     <div class="inline-flex flex-col">
       <form class="text-center">
         <label for="topChampion" class="me-4 font-semibold">Top Lane :</label>
