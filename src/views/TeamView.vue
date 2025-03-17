@@ -6,7 +6,7 @@
   <div class="px-6 xl:grid xl:grid-rows-1 xl:grid-cols-5">
     <div class="inline-flex flex-col">
       <form class="text-center">
-        <label for="topChampion" class="me-4 font-semibold">Top Lane :</label>
+        <label for="topChampion" class="me-2 font-semibold">Top Lane :</label>
         <select
           name="topChampion"
           id="topChampion"
@@ -49,7 +49,7 @@
 
     <div class="inline-flex flex-col">
       <form class="text-center">
-        <label for="jungleChampion" class="me-4 font-semibold">Jungle :</label>
+        <label for="jungleChampion" class="me-2 font-semibold">Jungle :</label>
         <select
           name="jungleChampion"
           id="jungleChampion"
@@ -92,7 +92,7 @@
 
     <div class="inline-flex flex-col">
       <form class="text-center">
-        <label for="midChampion" class="me-4 font-semibold">Mid Lane :</label>
+        <label for="midChampion" class="me-2 font-semibold">Mid Lane :</label>
         <select
           name="midChampion"
           id="midChampion"
@@ -135,7 +135,7 @@
 
     <div class="inline-flex flex-col">
       <form class="text-center">
-        <label for="bopChampion" class="me-4 font-semibold">Bot Lane :</label>
+        <label for="bopChampion" class="me-2 font-semibold">Bot Lane :</label>
         <select
           name="botChampion"
           id="botChampion"
@@ -178,7 +178,7 @@
 
     <div class="inline-flex flex-col">
       <form class="text-center">
-        <label for="supportChampion" class="me-4 font-semibold">Support :</label>
+        <label for="supportChampion" class="me-2 font-semibold">Support :</label>
         <select
           name="supportChampion"
           id="supportChampion"
